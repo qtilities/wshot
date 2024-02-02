@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WShot
+GenericName=Screenshot tool for wayland
+Comment=
+Exec=bash -c "wshot &"
+Type=Application
+Categories=Graphics; Utility;
+Icon=wshot
+Terminal=false
