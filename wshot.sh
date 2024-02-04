@@ -35,8 +35,6 @@ WshotApp() {
 		--forms \
 		--add-combo="$_grabMode" \
 			--combo-values="$_fullScreen|$_selectedArea|$_selectedWindow" \
-		--add-combo="$_withCursor" \
-			--combo-values="$_nope|$_yep" \
 		--add-combo="$_delay" \
 			--combo-values="0|2|4|6|8|10|15|20" \
 		--add-combo="$_destination" \
@@ -44,18 +42,18 @@ WshotApp() {
 		--add-entry="$_customFilename" \
 		--add-combo="$_fileType" \
 			--combo-values="png|jpeg" \
-		--add-combo="$_openSaved" \
-			--combo-values="$_nope|$_yep" \
+		--add-checkbox="$_withCursor" \
+		--add-checkbox="$_openSaved" \
 	)
 
 	local result=$?
 
 	local mode=$(echo $values | cut -d '|' -f 1)
-	local cursor=$(echo $values | cut -d '|' -f 2)
-	local wait=$(echo $values | cut -d '|' -f 3)
-	local destination=$(echo $values | cut -d '|' -f 4)
-	local filename=$(echo $values | cut -d '|' -f 5)
-	local filetype=$(echo $values | cut -d '|' -f 6)
+	local wait=$(echo $values | cut -d '|' -f 2)
+	local destination=$(echo $values | cut -d '|' -f 3)
+	local filename=$(echo $values | cut -d '|' -f 4)
+	local filetype=$(echo $values | cut -d '|' -f 5)
+	local cursor=$(echo $values | cut -d '|' -f 6)
 	local open=$(echo $values | cut -d '|' -f 7)
 
 
@@ -64,7 +62,7 @@ WshotApp() {
 		exit
 	fi
 
-	if [ ! -z "$cursor" ] &&	[ "$cursor" == "$_yep" ];then
+	if [ ! -z "$cursor" ] &&	[ "$cursor" == true ];then
 		OPTION+="-c"
 	fi
 
@@ -109,7 +107,7 @@ WshotApp() {
 		else
 			grim $OPTION -t $filetype -g "$GEO" $FILEDIR/$filename.$filetype
 		fi
-		if [ "$open" == "$_yep" ]; then
+		if [ "$open" == true ]; then
 		xdg-open $FILEDIR/$filename.$filetype
 		else
 			notify-send -t 3000 -a Wshot -i /usr/share/pixmaps/wshot.png	"$_savedAs $FILEDIR/$filename.$filetype"
