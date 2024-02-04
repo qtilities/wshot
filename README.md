@@ -44,6 +44,14 @@ Not tested using zenity instead of qarma.
 
 [![Packaging status]](https://repology.org/project/wshot/versions)
 
+## Translations
+
+Translations can be added in [weblate platform](https://translate.lxqt-project.org/projects/qtilities/wshot/).
+
+<a href="https://translate.lxqt-project.org/engage/qtilities/?utm_source=widget">
+<img src="https://translate.lxqt-project.org/widgets/qtilities/-/wshot/multi-auto.svg" alt="Translation status" />
+</a>
+
 ## Licenses
 
 Wshot is licensed under the [GPL3] license.<br/>
