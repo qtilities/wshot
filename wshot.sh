@@ -30,9 +30,8 @@ WshotApp() {
 	local _winDetectionError=$(_ "Compositor does not support automatic window detection.")
 
 if command -v qarma &>/dev/null; then
-    echo "Qarma is installed"
-    # using qarma
-    values=$(zenity \
+		# using qarma
+	local values=$(zenity \
 		--window-icon=/usr/share/pixmaps/wshot.png \
 		--title=Wshot \
 		--text="$_textOptions" \
@@ -51,9 +50,8 @@ if command -v qarma &>/dev/null; then
 	)
 	OK="true"
 else
-    echo "Qarma is not installed"
-    # using zenity
-    local values=$(zenity \
+	# using zenity
+	local values=$(zenity \
 		--icon=/usr/share/pixmaps/wshot.png \
 		--title=Wshot \
 		--text="$_textOptions" \
@@ -75,6 +73,11 @@ else
 
 fi
 
+if [ -z "$values" ]; then
+		echo "Goodbye!"
+		exit 0
+fi
+
 	local result=$?
 
 	local mode=$(echo $values | cut -d '|' -f 1)
@@ -85,17 +88,13 @@ fi
 	local cursor=$(echo $values | cut -d '|' -f 6)
 	local open=$(echo $values | cut -d '|' -f 7)
 
-	echo $values
-
 if [ "$cursor" = "$_nope" ]; then
-    unset cursor
+	unset cursor
 fi
 
 if [ "$open" = "$_yep" ]; then
-    open="true"
+	open="true"
 fi
-
-echo $cursor $open
 
 	if [ "$result" -eq 1 ];then # selected cancel
 		echo "Goodbye!"
@@ -143,7 +142,6 @@ echo $cursor $open
 			grim $OPTION -t $filetype -g "$GEO" - | wl-copy;
 		fi
 		notify-send -t 3000 -a Wshot -i /usr/share/pixmaps/wshot.png "$_shotToClip"
-		# this looks like triggered also when canceling/closing the window
 	else
 		if [ -z "$GEO" ]; then
 			grim $OPTION -t $filetype $FILEDIR/$filename.$filetype
