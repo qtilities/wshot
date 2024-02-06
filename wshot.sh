@@ -78,6 +78,11 @@ if [ -z "$values" ]; then
 		exit 0
 fi
 
+	if [ -z "$values" ]; then
+		echo "Goodbye!"
+		exit 0
+	fi
+
 	local result=$?
 
 	local mode=$(echo $values | cut -d '|' -f 1)
