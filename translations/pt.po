@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-03 15:12+0100\n"
+"PO-Revision-Date: 2024-03-27 23:23+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese <https://translate.lxqt-project.org/projects/"
+"qtilities/wshot/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.2.1\n"
+
+#: wshot.sh:8
+msgid "Options"
+msgstr "Opções"
+
+#: wshot.sh:9
+msgid "Mode"
+msgstr "Modo"
+
+#: wshot.sh:10
+msgid "Full screen"
+msgstr "Ecrã inteiro"
+
+#: wshot.sh:11
+msgid "Selected area"
+msgstr "Área selecionada"
+
+#: wshot.sh:12
+msgid "Selected window"
+msgstr "Janela selecionada"
+
+#: wshot.sh:13
+msgid "Include cursor"
+msgstr "Incluir cursor"
+
+#: wshot.sh:14
+msgid "no"
+msgstr "não"
+
+#: wshot.sh:15
+msgid "yes"
+msgstr "sim"
+
+#: wshot.sh:16
+msgid "Delay"
+msgstr "Atraso"
+
+#: wshot.sh:17
+msgid "Destination"
+msgstr "Destino"
+
+#: wshot.sh:18
+msgid "Save file"
+msgstr "Guardar ficheiro"
+
+#: wshot.sh:19
+msgid "Clipboard"
+msgstr "Área de transferência"
+
+#: wshot.sh:20
+msgid "Custom filename:"
+msgstr "Nome de ficheiro personalizado:"
+
+#: wshot.sh:21
+msgid "File type"
+msgstr "Tipo de ficheiro"
+
+#: wshot.sh:22
+msgid "Open saved result"
+msgstr "Abrir resultado guardado"
+
+#: wshot.sh:23
+msgid "Screenshot copied to clipboard"
+msgstr "Captura de ecrã copiada para a área de transferência"
+
+#: wshot.sh:24
+msgid "Screenshot saved as"
+msgstr "Captura de ecrã guardada como"
+
+#: wshot.sh:25
+msgid "Compositor does not support automatic window detection."
+msgstr "O compositor não suporta a deteção automática de janelas."
