@@ -1,14 +1,25 @@
 #!/bin/bash
 if
-   [ ! "$XDG_SESSION_TYPE" = "wayland" ];
-   then
-   zenity \
+	[ ! "$XDG_SESSION_TYPE" = "wayland" ];
+then
+	zenity \
 			--title=Wshot \
 			--width=150 \
 			--warning \
 			--timeout 5 \
 			--text="Wshot works only on wayland"
  exit 0
+fi
+
+if pgrep -x -u $USER "kwin_wayland" > /dev/null
+then
+	zenity \
+	--title=Wshot \
+	--width=150 \
+	--warning \
+	--timeout 5 \
+	--text="kwin_wayland is not supported"
+	exit 0
 fi
 
 _() {
