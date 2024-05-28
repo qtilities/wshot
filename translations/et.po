@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-03 15:12+0100\n"
+"PO-Revision-Date: 2024-05-28 07:23+0000\n"
+"Last-Translator: Priit Jõerüüt <lxqtwlate@joeruut.com>\n"
+"Language-Team: Estonian <https://translate.lxqt-project.org/projects/"
+"qtilities/wshot/et/>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2.1\n"
+
+#: wshot.sh:8
+msgid "Options"
+msgstr "Eelistused"
+
+#: wshot.sh:9
+msgid "Mode"
+msgstr "Režiim"
+
+#: wshot.sh:10
+msgid "Full screen"
+msgstr "Kogu ekraan"
+
+#: wshot.sh:11
+msgid "Selected area"
+msgstr "Valitud ala"
+
+#: wshot.sh:12
+msgid "Selected window"
+msgstr "Valitud aken"
+
+#: wshot.sh:13
+msgid "Include cursor"
+msgstr "Lisa pildile kursor"
+
+#: wshot.sh:14
+msgid "no"
+msgstr "ei"
+
+#: wshot.sh:15
+msgid "yes"
+msgstr "jah"
+
+#: wshot.sh:16
+msgid "Delay"
+msgstr "Viivitus"
+
+#: wshot.sh:17
+msgid "Destination"
+msgstr "Kuhu paneme ekraanitõmmise"
+
+#: wshot.sh:18
+msgid "Save file"
+msgstr "Salvesta fail"
+
+#: wshot.sh:19
+msgid "Clipboard"
+msgstr "Lõikelaud"
+
+#: wshot.sh:20
+msgid "Custom filename:"
+msgstr "Kohandatud failinimi:"
+
+#: wshot.sh:21
+msgid "File type"
+msgstr "Faili tüüp"
+
+#: wshot.sh:22
+msgid "Open saved result"
+msgstr "Ava salvestatud fail"
+
+#: wshot.sh:23
+msgid "Screenshot copied to clipboard"
+msgstr "Ekraanitõmmise kopeerisin lõikelauale"
+
+#: wshot.sh:24
+msgid "Screenshot saved as"
+msgstr "Ekraanitõmmise salvestasime kui"
+
+#: wshot.sh:25
+msgid "Compositor does not support automatic window detection."
+msgstr "Komposiitor ei toeta automaatset akende tuvastamist."
