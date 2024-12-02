@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-03 15:12+0100\n"
+"PO-Revision-Date: 2024-10-02 10:24+0000\n"
+"Last-Translator: Davidmp <opensusecatala@gmail.com>\n"
+"Language-Team: Catalan <https://translate.lxqt-project.org/projects/"
+"qtilities/wshot/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2.1\n"
+
+#: wshot.sh:8
+msgid "Options"
+msgstr "Opcions"
+
+#: wshot.sh:9
+msgid "Mode"
+msgstr "Mode"
+
+#: wshot.sh:10
+msgid "Full screen"
+msgstr "Pantalla completa"
+
+#: wshot.sh:11
+msgid "Selected area"
+msgstr "Àrea seleccionada"
+
+#: wshot.sh:12
+msgid "Selected window"
+msgstr "Finestra seleccionada"
+
+#: wshot.sh:13
+msgid "Include cursor"
+msgstr "Inclou el cursor"
+
+#: wshot.sh:14
+msgid "no"
+msgstr "no"
+
+#: wshot.sh:15
+msgid "yes"
+msgstr "sí"
+
+#: wshot.sh:16
+msgid "Delay"
+msgstr "Retard"
+
+#: wshot.sh:17
+msgid "Destination"
+msgstr "Destinació"
+
+#: wshot.sh:18
+msgid "Save file"
+msgstr "Desa el fitxer"
+
+#: wshot.sh:19
+msgid "Clipboard"
+msgstr ""
+
+#: wshot.sh:20
+msgid "Custom filename:"
+msgstr ""
+
+#: wshot.sh:21
+msgid "File type"
+msgstr ""
+
+#: wshot.sh:22
+msgid "Open saved result"
+msgstr ""
+
+#: wshot.sh:23
+msgid "Screenshot copied to clipboard"
+msgstr ""
+
+#: wshot.sh:24
+msgid "Screenshot saved as"
+msgstr ""
+
+#: wshot.sh:25
+msgid "Compositor does not support automatic window detection."
+msgstr ""
