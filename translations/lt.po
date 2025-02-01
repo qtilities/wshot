@@ -8,82 +8,87 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-03 15:12+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-12 10:58+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <https://translate.lxqt-project.org/projects/"
+"qtilities/wshot/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 4.2.1\n"
 
 #: wshot.sh:8
 msgid "Options"
-msgstr ""
+msgstr "Parinktys"
 
 #: wshot.sh:9
 msgid "Mode"
-msgstr ""
+msgstr "Veiksena"
 
 #: wshot.sh:10
 msgid "Full screen"
-msgstr ""
+msgstr "Visas ekranas"
 
 #: wshot.sh:11
 msgid "Selected area"
-msgstr ""
+msgstr "Pažymėta sritis"
 
 #: wshot.sh:12
 msgid "Selected window"
-msgstr ""
+msgstr "Pažymėtas langas"
 
 #: wshot.sh:13
 msgid "Include cursor"
-msgstr ""
+msgstr "Įtraukti žymeklį"
 
 #: wshot.sh:14
 msgid "no"
-msgstr ""
+msgstr "ne"
 
 #: wshot.sh:15
 msgid "yes"
-msgstr ""
+msgstr "taip"
 
 #: wshot.sh:16
 msgid "Delay"
-msgstr ""
+msgstr "Delsa"
 
 #: wshot.sh:17
 msgid "Destination"
-msgstr ""
+msgstr "Paskirtis"
 
 #: wshot.sh:18
 msgid "Save file"
-msgstr ""
+msgstr "Įrašyti failą"
 
 #: wshot.sh:19
 msgid "Clipboard"
-msgstr ""
+msgstr "Iškarpinė"
 
 #: wshot.sh:20
 msgid "Custom filename:"
-msgstr ""
+msgstr "Tinkintas failo pavadinimas:"
 
 #: wshot.sh:21
 msgid "File type"
-msgstr ""
+msgstr "Failo tipas"
 
 #: wshot.sh:22
 msgid "Open saved result"
-msgstr ""
+msgstr "Atverti įrašytą rezultatą"
 
 #: wshot.sh:23
 msgid "Screenshot copied to clipboard"
-msgstr ""
+msgstr "Ekrano kopija nukopijuota į iškarpinę"
 
 #: wshot.sh:24
 msgid "Screenshot saved as"
-msgstr ""
+msgstr "Ekrano kopija įrašyta kaip"
 
 #: wshot.sh:25
 msgid "Compositor does not support automatic window detection."
-msgstr ""
+msgstr "Tvarkytojas nepalaiko automatinio langų aptikimo."
