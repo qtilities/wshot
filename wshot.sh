@@ -164,9 +164,9 @@ fi
 
 	if [ -z "$destination" ] || [ "$destination" == "$_clipboard" ];then
 		if [ -z "$GEO" ]; then
-			grim $OPTION -t $filetype - | wl-copy;
+			grim $OPTION -t $filetype - | wl-copy -t image/"$filetype";
 		else
-			grim $OPTION -t $filetype -g "$GEO" - | wl-copy;
+			grim $OPTION -t $filetype -g "$GEO" - | wl-copy -t image/"$filetype";
 		fi
 		notify-send -t 3000 -a Wshot -i /usr/share/pixmaps/wshot.png "$_shotToClip"
 	else
