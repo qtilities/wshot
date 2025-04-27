@@ -8,85 +8,85 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-03 15:12+0100\n"
-"PO-Revision-Date: 2025-03-29 10:25+0000\n"
-"Last-Translator: Davidmp <opensusecatala@gmail.com>\n"
-"Language-Team: Catalan <https://translate.lxqt-project.org/projects/"
-"qtilities/wshot/ca/>\n"
-"Language: ca\n"
+"PO-Revision-Date: 2025-04-03 12:25+0000\n"
+"Last-Translator: Pedro Maimere <pmaimere@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.lxqt-project.org/"
+"projects/qtilities/wshot/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.2.1\n"
 
 #: wshot.sh:8
 msgid "Options"
-msgstr "Opcions"
+msgstr "Opções"
 
 #: wshot.sh:9
 msgid "Mode"
-msgstr "Mode"
+msgstr "Modo"
 
 #: wshot.sh:10
 msgid "Full screen"
-msgstr "Pantalla completa"
+msgstr "Tela inteira"
 
 #: wshot.sh:11
 msgid "Selected area"
-msgstr "Àrea seleccionada"
+msgstr "Área selecionada"
 
 #: wshot.sh:12
 msgid "Selected window"
-msgstr "Finestra seleccionada"
+msgstr "Janela selecionada"
 
 #: wshot.sh:13
 msgid "Include cursor"
-msgstr "Inclou el cursor"
+msgstr "Incluir cursor"
 
 #: wshot.sh:14
 msgid "no"
-msgstr "no"
+msgstr "não"
 
 #: wshot.sh:15
 msgid "yes"
-msgstr "sí"
+msgstr "sim"
 
 #: wshot.sh:16
 msgid "Delay"
-msgstr "Retard"
+msgstr "Atraso"
 
 #: wshot.sh:17
 msgid "Destination"
-msgstr "Destinació"
+msgstr "Destino"
 
 #: wshot.sh:18
 msgid "Save file"
-msgstr "Desa el fitxer"
+msgstr "Salvar arquivo"
 
 #: wshot.sh:19
 msgid "Clipboard"
-msgstr "Porta-retalls"
+msgstr "Área de transferência"
 
 #: wshot.sh:20
 msgid "Custom filename:"
-msgstr "Nom de fitxer personalitzat:"
+msgstr "Nome de arquivo personalizado:"
 
 #: wshot.sh:21
 msgid "File type"
-msgstr "Tipus de fitxer"
+msgstr "Tipo de arquivo"
 
 #: wshot.sh:22
 msgid "Open saved result"
-msgstr "Obre el resultat desat"
+msgstr "Abrir resultados salvos"
 
 #: wshot.sh:23
 msgid "Screenshot copied to clipboard"
-msgstr "S'ha copiat la captura de pantalla al porta-retalls"
+msgstr "Captura de tela copiada para a área de transferência"
 
 #: wshot.sh:24
 msgid "Screenshot saved as"
-msgstr "Captura de pantalla desada com a"
+msgstr "Captura de tela salva como"
 
 #: wshot.sh:25
 msgid "Compositor does not support automatic window detection."
-msgstr "El compositor no admet la detecció automàtica de finestres."
+msgstr "O compositor não suporta a deteção automática de janelas."
