@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-03 15:12+0100\n"
+"PO-Revision-Date: 2025-07-25 08:03+0000\n"
+"Last-Translator: BigELK176 ≡ <BigELK176@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.lxqt-project.org/"
+"projects/qtilities/wshot/zh_TW/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.2.1\n"
+
+#: wshot.sh:8
+msgid "Options"
+msgstr "選項"
+
+#: wshot.sh:9
+msgid "Mode"
+msgstr "模式"
+
+#: wshot.sh:10
+msgid "Full screen"
+msgstr "全螢幕"
+
+#: wshot.sh:11
+msgid "Selected area"
+msgstr "選取區域"
+
+#: wshot.sh:12
+msgid "Selected window"
+msgstr "選取視窗"
+
+#: wshot.sh:13
+msgid "Include cursor"
+msgstr "包含游標"
+
+#: wshot.sh:14
+msgid "no"
+msgstr "否"
+
+#: wshot.sh:15
+msgid "yes"
+msgstr "是"
+
+#: wshot.sh:16
+msgid "Delay"
+msgstr "延遲"
+
+#: wshot.sh:17
+msgid "Destination"
+msgstr "目的地"
+
+#: wshot.sh:18
+msgid "Save file"
+msgstr "儲存檔案"
+
+#: wshot.sh:19
+msgid "Clipboard"
+msgstr "剪貼簿"
+
+#: wshot.sh:20
+msgid "Custom filename:"
+msgstr "自訂檔案名稱："
+
+#: wshot.sh:21
+msgid "File type"
+msgstr "檔案類型"
+
+#: wshot.sh:22
+msgid "Open saved result"
+msgstr "開啟已存結果"
+
+#: wshot.sh:23
+msgid "Screenshot copied to clipboard"
+msgstr "螢幕擷圖已經複製至剪貼簿"
+
+#: wshot.sh:24
+msgid "Screenshot saved as"
+msgstr "螢幕擷圖已經儲存為"
+
+#: wshot.sh:25
+msgid "Compositor does not support automatic window detection."
+msgstr "合成器不支援自動視窗偵測。"
